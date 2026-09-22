@@ -1,6 +1,6 @@
 <odoo>
     <template id="contactus_form_zip" inherit_id="website.contactus" name="Contact Form — Zip">
-        <xpath expr="//input[@name='company']/ancestor::div[hasclass('s_website_form_field')]"
+        <xpath expr="//input[@name='company']/parent::div"
                position="after">
             <div class="mb-3 col-lg-6 s_website_form_field s_website_form_model_required"
                  data-type="char" data-name="Field">
