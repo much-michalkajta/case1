@@ -5,9 +5,10 @@
     'author': 'much. Consulting',
     'depends': ['website_crm'],
     'data': [
-        'data/website_form_data.xml',
         'views/website_contactus_templates.xml',
     ],
+    'post_init_hook': 'post_init_hook',
+    'uninstall_hook': 'uninstall_hook',
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
